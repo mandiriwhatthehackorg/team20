@@ -163,7 +163,9 @@
         android:text="BATALKAN"
         android:layout_width="match_parent"
         android:layout_height="48dp" />
+
     <Button
+        android:id="@+id/detail_pengambilan_selesai"
         android:textColor="@color/colorWhite"
         android:background="@color/colorBlue"
         android:text="SELESAI"
