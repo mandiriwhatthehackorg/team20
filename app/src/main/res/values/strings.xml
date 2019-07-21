@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Marimo</string>
+    
+    <string name="check">Check</string>
+    
+    <string name="username">Username</string>
+    <string name="name">Nama</string>
+    <string name="password">Password</string>
+    <string name="alamat">Alamat</string>
+    <string name="rtrw">RT / RW</string>
+    <string name="kelurahan">Kelurahan</string>
+    <string name="kecamatan">Kecamatan</string>
+    
+    <string name="jenis_barang">Jenis Barang</string>
+    <string name="kondisi">Kondisi</string>
+    <string name="desc">Deskripsi</string>
+    <string name="image">Image</string>
+    <string name="jumlah_barang">Jumlah Barang</string>
+
+    <string name="submit">Submit</string>
+    
+    <string name="apa_itu_mar">Apa itu marimo?</string>
+    <string name="marimo_mamp">
+Marimo mampu membantumu mendaur ulang gawai bekasmu menjadi bermanfaat
+</string>
+
+</resources>

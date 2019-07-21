@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/gradient_home"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo_login"
+            android:layout_width="150dp"
+            android:layout_height="90dp" />
+            <TextView
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/colorWhite"
+                android:layout_gravity="center_horizontal"
+                android:text="Daur Ulang Sampah Elektronik"
+                android:textSize="17sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="28dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/colorWhite"
+            android:text="Masuk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:background="@color/colorWhite"
+            android:id="@+id/login_usernameEdt"
+            android:hint="@string/username"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+        <EditText
+            android:layout_marginTop="12dp"
+            android:background="@color/colorWhite"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/login_passwordEdt"
+            android:hint="@string/password"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/colorWhite"
+                android:gravity="right"
+                android:layout_gravity="end"
+                android:text="Lupa Password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <Button
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:layout_marginTop="24dp"
+            android:background="@color/colorWhite"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Masuk"
+            android:layout_gravity="center"
+            android:id="@+id/loginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+
+        <Button
+            android:id="@+id/login_daftar_button"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:layout_marginTop="24dp"
+            android:background="@color/colorOrange"
+            android:textColor="@color/colorWhite"
+            android:text="Daftar"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+    </LinearLayout>
+</RelativeLayout>
